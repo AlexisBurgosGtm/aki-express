@@ -41,7 +41,6 @@ app.get("/",function(req,res){
 
 // ROUTER CLIENTES
 // app.use('/clientes', routerClientes);
- 
 app.use("/",router);
 
 app.use("*",function(req,res){
